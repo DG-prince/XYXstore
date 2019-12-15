@@ -167,7 +167,14 @@
 		<servlet-name>ChangeOrderStateServlet</servlet-name>
 		<url-pattern>/orderstate</url-pattern>
 	</servlet-mapping>
-	
+		<servlet>
+		<servlet-name>DownloadServlet</servlet-name>
+		<servlet-class>cn.itcast.itcaststore.web.servlet.manager.DownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadServlet</servlet-name>
+		<url-pattern>/download</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>FindProductByManyConditionServlet</servlet-name>
