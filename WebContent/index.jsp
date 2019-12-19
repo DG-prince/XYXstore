@@ -3,10 +3,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>itcastStore首页</title>
+	<title>XYX百货商城</title>
 </head>
 
 <body>
-	<jsp:forward page="ShowIndexServlet"></jsp:forward>
+	<jsp:forward page="/client/index.jsp"></jsp:forward>
 </body>
 </html>
